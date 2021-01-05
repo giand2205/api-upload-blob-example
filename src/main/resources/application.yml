@@ -1,0 +1,11 @@
+spring:
+  servlet:
+    multipart:
+      max-request-size: 18MB
+      max-file-size: 18MB
+
+azure:
+  storage:
+    ConnectionString:
+    container:
+      name: imagesblob
